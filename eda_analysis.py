@@ -333,5 +333,3 @@ print("output/figures/eda_btc_acf_pacf.png")
 print("output/tables/eda_descriptive_statistics.csv")
 print("output/tables/eda_correlation_matrix.csv")
 print("output/tables/eda_dataset.csv")
-
-print("\nGata.")

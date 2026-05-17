@@ -549,5 +549,3 @@ print(
     "Deciziile finale trebuie interpretate pe baza tabelului, unde sunt raportate "
     "valorile critice specifice fiecarei serii."
 )
-
-print("\nGata.")
