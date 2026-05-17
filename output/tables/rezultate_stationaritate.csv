@@ -1,0 +1,11 @@
+Serie,Tip,ADF stat,ADF p-value,ADF lags,ADF VC 1%,ADF VC 5%,ADF VC 10%,ADF decision,KPSS stat,KPSS p-value,KPSS lags,KPSS VC 1%,KPSS VC 5%,KPSS VC 10%,KPSS decision,Concluzie
+log(Bitcoin),Nivel,-1.878,0.666,1,-4.03,-3.445,-3.147,NON-STATIONARA,0.281,0.01,6,0.216,0.146,0.119,NON-STATIONARA,"I(1) - non-stationara, necesita diferentiere"
+log(Aur),Nivel,-0.4219,0.9862,1,-4.03,-3.445,-3.147,NON-STATIONARA,0.2367,0.01,6,0.216,0.146,0.119,NON-STATIONARA,"I(1) - non-stationara, necesita diferentiere"
+log(S&P 500),Nivel,-3.2732,0.0708,0,-4.03,-3.445,-3.147,NON-STATIONARA,0.0771,0.1,6,0.216,0.146,0.119,STATIONARA,Ambiguu - verificati specificatia testelor
+log(CPI),Nivel,-2.6071,0.2766,7,-4.034,-3.447,-3.148,NON-STATIONARA,0.3905,0.01,6,0.216,0.146,0.119,NON-STATIONARA,"I(1) - non-stationara, necesita diferentiere"
+Inflatie YoY,Nivel,-2.0112,0.5953,13,-4.047,-3.453,-3.152,NON-STATIONARA,0.1792,0.0238,6,0.216,0.146,0.119,NON-STATIONARA,"I(1) - non-stationara, necesita diferentiere"
+Dlog(Bitcoin),Prima diferenta,-9.9291,0.0,0,-3.482,-2.884,-2.579,STATIONARA,0.1781,0.1,2,0.739,0.463,0.347,STATIONARA,I(0) - stationara
+Dlog(Aur),Prima diferenta,-8.3347,0.0,0,-3.482,-2.884,-2.579,STATIONARA,0.6457,0.0185,3,0.739,0.463,0.347,NON-STATIONARA,Ambiguu - posibil trend stationar sau specificatie diferita
+Dlog(S&P 500),Prima diferenta,-12.9069,0.0,0,-3.482,-2.884,-2.579,STATIONARA,0.0896,0.1,7,0.739,0.463,0.347,STATIONARA,I(0) - stationara
+Dlog(CPI),Prima diferenta,-2.0036,0.285,6,-3.484,-2.885,-2.579,NON-STATIONARA,0.4553,0.0533,5,0.739,0.463,0.347,STATIONARA,Ambiguu - verificati specificatia testelor
+DInflatie YoY,Prima diferenta,-2.9664,0.0382,12,-3.494,-2.889,-2.582,STATIONARA,0.1423,0.1,4,0.739,0.463,0.347,STATIONARA,I(0) - stationara
